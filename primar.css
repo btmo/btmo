@@ -1,0 +1,74 @@
+html, body {
+	position: relative;
+	height: 100%;
+	padding: 0;
+	margin: 0;
+}
+
+@font-face {
+    font-family: 'ChiselMark';
+    src: url('ChiselMark.ttf');
+}
+
+.background {
+	background-color: black;
+	background-image: -webkit-linear-gradient(top, #300851 0%, black 80%, #1a032d 100%); /* Chrome10+,Safari5.1+ */
+	background-image:    -moz-linear-gradient(top, #300851 0%, black 80%, #1a032d 100%); /* FF3.6+ */
+	background-image:         linear-gradient(top, #300851 0%, black 80%, #1a032d 100%); /* W3C */ 
+	background-repeat: no-repeat;
+	background-attachment: fixed;
+}
+
+.centered {
+	position: fixed;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+}
+
+.logo {
+	width: 25%;
+}
+
+
+.bar {
+	width: 100%;
+	background-color: white;
+	text-align: center;
+	vertical-align: middle;
+	position: absolute; 
+	color: black;
+}
+
+.videoContainer {
+	width: 50%;
+	max-width: 50%;
+}
+
+.videoWrapper {
+    position: relative;
+    width: 100%;
+    height: 0;
+    padding-bottom: 56.25%;
+}
+
+.video {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+}
+
+.gamePremise {
+	display: inline-block;
+	font-size: 18pt;
+	font-family: 'ChiselMark';
+	vertical-align: middle;
+}
+
+.store {
+	width: 13%;
+	min-width: 140px;
+	vertical-align: middle;
+}
