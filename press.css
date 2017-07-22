@@ -154,3 +154,11 @@ a:hover, a:active {
 	color: #FCCD57;
 }
 
+.contact:link, .contact:visited {
+	color: #7c0dd8;
+}
+
+.contact:hover, .contact:active {
+	color: #FCCD57;
+}
+
