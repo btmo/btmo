@@ -3,11 +3,23 @@ html, body {
 	height: 100%;
 	padding: 0;
 	margin: 0;
+	font-family: 'ChiselMark';
+	font-size: 14pt;
 }
 
 @font-face {
     font-family: 'ChiselMark';
     src: url('ChiselMark.ttf');
+}
+
+a:link, a:visited {
+	color: black;
+	text-decoration: none;
+}
+
+a:hover, a:active {
+	color: #7c0dd8;
+	text-decoration: none;
 }
 
 .background {
@@ -35,7 +47,6 @@ html, body {
 	width: 100%;
 	background-color: white;
 	text-align: center;
-	vertical-align: middle;
 	position: absolute; 
 	color: black;
 }
@@ -63,12 +74,15 @@ html, body {
 .gamePremise {
 	display: inline-block;
 	font-size: 18pt;
-	font-family: 'ChiselMark';
 	vertical-align: middle;
 }
 
 .store {
 	width: 13%;
 	min-width: 140px;
+	vertical-align: middle;
+}
+
+.pressKit {
 	vertical-align: middle;
 }
